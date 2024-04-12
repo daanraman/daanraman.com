@@ -7,7 +7,7 @@ var candidatePixels = [];
 
 var runPhase = "INIT";
 
-var canvas= document.getElementById('defaultCanvas0');
+var canvas= document.getElementById('headerCanvas');
 var font;
 
 var consequentCollisions = 0;
@@ -90,7 +90,7 @@ function drawText() {
 }
 
 function preload() {
-    font = loadFont('/Inter-Bold.ttf');
+    font = loadFont('Inter-Bold.ttf');
 }
 
 function pixelArraysOverlap(pixelArrayA, pixelArrayB){
