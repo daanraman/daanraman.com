@@ -90,7 +90,7 @@ function drawText() {
 }
 
 function preload() {
-    font = loadFont('/Inter-Bold.ttf');
+    font = loadFont('/Inter-Bold.otf');
 }
 
 function pixelArraysOverlap(pixelArrayA, pixelArrayB){
