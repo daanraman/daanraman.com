@@ -13,8 +13,6 @@ var font;
 var consequentCollisions = 0;
 var consequentHits = 0;
 
-var demoMode = false;
-
 function Shape() {
     this.maxSize = Math.max(5,100/(consequentCollisions+1));
     //this.maxSize = 200;
@@ -167,15 +165,3 @@ function windowResized() {
   shapes.length = 0;
   runPhase ="INIT";
 }
-
-//function mouseClicked(){
-   // if(demoMode){
-   //     frameRate(60);
-   //     demoMode = false;
-   //}else{
-   //     frameRate(5);
-   //     demoMode = true;
-   // }
-//   saveCanvas('canvas', 'png');
-//   return false;
-//}
