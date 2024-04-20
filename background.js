@@ -65,7 +65,7 @@ function setup() {
 
 function drawText() {
   background(254);
-  message = "Daan Raman";
+  message = "Daan";
   textFont(font);
   fill(255);
   noStroke();
