@@ -70,7 +70,7 @@ function drawText() {
   fill(255);
   noStroke();
 
-  fontsize = 100; // Start with a reasonable minimum size to increment from
+  fontsize = 10; // Start with a reasonable minimum size to increment from
   while(true) {
     textSize(fontsize);
     bounds = font.textBounds(message, 0, 0, fontsize);
