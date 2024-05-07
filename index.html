@@ -6,18 +6,14 @@
     <title>daanraman.com</title>
     <style>
         .iframe-container {
-            position: relative;
-            width: 400px;
-            height: 180px;
+            width: 100vw; /* Full width of the viewport */
+            /* height: 30vh;  30% of the viewport height */
+            overflow: hidden; /* Prevents scrolling if iframe content is bigger than the container */
         }
         .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            width: 100%; 
+            height: 100%; 
             border: none;
-            overflow: hidden;
         }
     </style>
 </head>
